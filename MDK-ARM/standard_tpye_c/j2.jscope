@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes" ?>
+<JScopeProject>
+    <FileVersion major="1" minor="1" />
+    <Project>
+        <Configuration>
+            <JLink>
+                <Options Connection="1" IsRTTSession="0" IsRTTWithTimeStamp="0" SamplingPeriod="100" SerialNo="0" JTAG_IRPre="0" JTAG_DRPre="0" IP="" TargetDevice="STM32F407IG" TargetInterface="SWD" InterfaceSpeed="4000" />
+            </JLink>
+            <ElfFile Name="C:\Users\86188\Desktop\�ڱ�\20240412���������޸� - ���� (2)\MDK-ARM\standard_tpye_c\standard_tpye_c.axf" />
+            <Scope>
+                <Options TimeResolutionUs="1000000" />
+            </Scope>
+        </Configuration>
+        <Windows>
+            <Graph Show="1" />
+            <Watch Show="1" />
+        </Windows>
+        <SelectedSymbols>
+            <Symbol>
+                <Options Name="yaw_motor_gyro_set_1000" Address="0x20000138" Type="int" TypeID="12" Size="4" GraphColorRed="255" GraphColorGreen="0" GraphColorBlue="0" YMinSampled="-10000" YMaxSampled="10000" YAvgSampled="28.0597" Offset="4" ShowInGraph="1" YOffset="0" IsAutoConfig="0" YResolution="2000" MaxValue="2147483647" File="C:\Users\86188\Desktop\哨兵\20240412串口数据修改 - 副本 (2)\MDK-ARM/..\application\chassis_task.c" DrawStyle="0" NameWithParents="yaw_motor_gyro_set_1000" />
+            </Symbol>
+            <Symbol>
+                <Options Name="yaw_motor_gyro_1000" Address="0x20000134" Type="int" TypeID="12" Size="4" GraphColorRed="0" GraphColorGreen="0" GraphColorBlue="255" YMinSampled="-5299" YMaxSampled="5163" YAvgSampled="30.5333" Offset="8" ShowInGraph="1" YOffset="0" IsAutoConfig="0" YResolution="2000" MaxValue="2147483647" File="C:\Users\86188\Desktop\哨兵\20240412串口数据修改 - 副本 (2)\MDK-ARM/..\application\chassis_task.c" DrawStyle="0" NameWithParents="yaw_motor_gyro_1000" />
+            </Symbol>
+            <Symbol>
+                <Options Name="yaw_absolute_angle_set_1000" Address="0x20000130" Type="int" TypeID="12" Size="4" GraphColorRed="0" GraphColorGreen="255" GraphColorBlue="0" YMinSampled="-3141" YMaxSampled="3141" YAvgSampled="-269.84" Offset="12" ShowInGraph="0" YOffset="0" IsAutoConfig="0" YResolution="1" MaxValue="2147483647" File="C:\Users\86188\Desktop\哨兵\20240412串口数据修改 - 副本 (2)\MDK-ARM/..\application\chassis_task.c" DrawStyle="0" NameWithParents="yaw_absolute_angle_set_1000" />
+            </Symbol>
+            <Symbol>
+                <Options Name="yaw_absolute_angle_1000" Address="0x2000012C" Type="int" TypeID="12" Size="4" GraphColorRed="255" GraphColorGreen="255" GraphColorBlue="0" YMinSampled="-3141" YMaxSampled="3141" YAvgSampled="-270.264" Offset="16" ShowInGraph="0" YOffset="0" IsAutoConfig="0" YResolution="1" MaxValue="2147483647" File="C:\Users\86188\Desktop\哨兵\20240412串口数据修改 - 副本 (2)\MDK-ARM/..\application\chassis_task.c" DrawStyle="0" NameWithParents="yaw_absolute_angle_1000" />
+            </Symbol>
+        </SelectedSymbols>
+    </Project>
+</JScopeProject>

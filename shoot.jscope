@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes" ?>
+<JScopeProject>
+    <FileVersion major="1" minor="1" />
+    <Project>
+        <Configuration>
+            <JLink>
+                <Options Connection="1" IsRTTSession="0" IsRTTWithTimeStamp="0" IsRTTPlus="0" SamplingPeriod="100" SerialNo="0" JTAG_IRPre="0" JTAG_DRPre="0" IP="" TargetDevice="STM32F407IG" TargetInterface="SWD" InterfaceSpeed="4000" />
+            </JLink>
+            <ElfFile Name="D:\����\25����ڱ�\�ڱ�111111111111\����Ħ��������ǰ��������棩\MDK-ARM\standard_tpye_c\standard_tpye_c.axf" />
+            <Scope>
+                <Options TimeResolutionUs="1000000" />
+            </Scope>
+            <Trigger>
+                <Options Level="0" Symbol="speed" On="0" Auto="0" Rise="0" Fall="0" />
+            </Trigger>
+        </Configuration>
+        <Windows>
+            <Graph Show="1" />
+            <Watch Show="1" />
+        </Windows>
+        <SelectedSymbols>
+            <Symbol>
+                <Options Name="speed" Address="0x20001EAC" Type="float" TypeID="1" Size="4" GraphColorRed="255" GraphColorGreen="255" GraphColorBlue="0" YMinSampled="0" YMaxSampled="0" YAvgSampled="0" Offset="4" ShowInGraph="1" YOffset="0" IsAutoConfig="0" YResolution="1" MaxValue="-2147483648" File="D:\桌面\25电控哨兵\哨兵111111111111\底盘摩擦力补偿前馈（低配版）\MDK-ARM/..\application\shoot.h" DrawStyle="0" NameWithParents=".shoot_control.shoot_motor[1].speed" />
+            </Symbol>
+            <Symbol>
+                <Options Name="give_current" Address="0x20001EB4" Type="short" TypeID="11" Size="2" GraphColorRed="0" GraphColorGreen="255" GraphColorBlue="255" YMinSampled="-26748" YMaxSampled="-26748" YAvgSampled="-26748" Offset="8" ShowInGraph="1" YOffset="0" IsAutoConfig="0" YResolution="10000" MaxValue="32767" File="D:\桌面\25电控哨兵\哨兵111111111111\底盘摩擦力补偿前馈（低配版）\MDK-ARM/..\application\shoot.h" DrawStyle="0" NameWithParents=".shoot_control.shoot_motor[1].give_current" />
+            </Symbol>
+            <Symbol>
+                <Options Name="speed" Address="0x20001ED4" Type="float" TypeID="1" Size="4" GraphColorRed="0" GraphColorGreen="0" GraphColorBlue="255" YMinSampled="0" YMaxSampled="0" YAvgSampled="0" Offset="10" ShowInGraph="1" YOffset="0" IsAutoConfig="0" YResolution="1" MaxValue="-2147483648" File="D:\桌面\25电控哨兵\哨兵111111111111\底盘摩擦力补偿前馈（低配版）\MDK-ARM/..\application\shoot.h" DrawStyle="0" NameWithParents=".shoot_control.shoot_motor[3].speed" />
+            </Symbol>
+            <Symbol>
+                <Options Name="give_current" Address="0x20001EDC" Type="short" TypeID="11" Size="2" GraphColorRed="255" GraphColorGreen="255" GraphColorBlue="255" YMinSampled="0" YMaxSampled="0" YAvgSampled="0" Offset="14" ShowInGraph="1" YOffset="0" IsAutoConfig="0" YResolution="1" MaxValue="32767" File="D:\桌面\25电控哨兵\哨兵111111111111\底盘摩擦力补偿前馈（低配版）\MDK-ARM/..\application\shoot.h" DrawStyle="0" NameWithParents=".shoot_control.shoot_motor[3].give_current" />
+            </Symbol>
+            <Symbol>
+                <Options Name="speed_set" Address="0x20001ED8" Type="float" TypeID="1" Size="4" GraphColorRed="255" GraphColorGreen="0" GraphColorBlue="0" YMinSampled="0" YMaxSampled="0" YAvgSampled="0" Offset="16" ShowInGraph="1" YOffset="0" IsAutoConfig="0" YResolution="1" MaxValue="-2147483648" File="D:\桌面\25电控哨兵\哨兵111111111111\底盘摩擦力补偿前馈（低配版）\MDK-ARM/..\application\shoot.h" DrawStyle="0" NameWithParents=".shoot_control.shoot_motor[3].speed_set" />
+            </Symbol>
+            <Symbol>
+                <Options Name="speed_set" Address="0x20001EB0" Type="float" TypeID="1" Size="4" GraphColorRed="85" GraphColorGreen="255" GraphColorBlue="0" YMinSampled="-0.00787677" YMaxSampled="-0.00787677" YAvgSampled="-0.00787677" Offset="20" ShowInGraph="1" YOffset="0" IsAutoConfig="0" YResolution="1" MaxValue="-2147483648" File="D:\桌面\25电控哨兵\哨兵111111111111\底盘摩擦力补偿前馈（低配版）\MDK-ARM/..\application\shoot.h" DrawStyle="0" NameWithParents=".shoot_control.shoot_motor[1].speed_set" />
+            </Symbol>
+        </SelectedSymbols>
+    </Project>
+</JScopeProject>

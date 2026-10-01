@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes" ?>
+<JScopeProject>
+    <FileVersion major="1" minor="1" />
+    <Project>
+        <Configuration>
+            <JLink>
+                <Options Connection="1" IsRTTSession="0" IsRTTWithTimeStamp="0" IsRTTPlus="0" SamplingPeriod="100" SerialNo="0" JTAG_IRPre="0" JTAG_DRPre="0" IP="" TargetDevice="STM32F407IG" TargetInterface="SWD" InterfaceSpeed="4000" />
+            </JLink>
+            <ElfFile Name="D:\����\25����ڱ�\�ڱ�111111111111\����Ħ��������ǰ��������棩\MDK-ARM\standard_tpye_c\standard_tpye_c.axf" />
+            <Scope>
+                <Options TimeResolutionUs="1000000" />
+            </Scope>
+            <Trigger>
+                <Options Level="0" Symbol="PP" On="0" Auto="0" Rise="0" Fall="0" />
+            </Trigger>
+        </Configuration>
+        <Windows>
+            <Graph Show="1" />
+            <Watch Show="1" />
+        </Windows>
+        <SelectedSymbols>
+            <Symbol>
+                <Options Name="PP" Address="0x2000049C" Type="float" TypeID="1" Size="4" GraphColorRed="255" GraphColorGreen="0" GraphColorBlue="0" YMinSampled="0" YMaxSampled="0" YAvgSampled="0" Offset="4" ShowInGraph="1" YOffset="0" IsAutoConfig="0" YResolution="1" MaxValue="-2147483648" File="D:\桌面\25电控哨兵\哨兵111111111111\底盘摩擦力补偿前馈（低配版）\MDK-ARM/..\application\MainFocus_task.c" DrawStyle="0" NameWithParents=".PP" />
+            </Symbol>
+            <Symbol>
+                <Options Name="YY" Address="0x200004A0" Type="float" TypeID="1" Size="4" GraphColorRed="255" GraphColorGreen="0" GraphColorBlue="0" YMinSampled="0" YMaxSampled="0" YAvgSampled="0" Offset="8" ShowInGraph="1" YOffset="0" IsAutoConfig="0" YResolution="1" MaxValue="-2147483648" File="D:\桌面\25电控哨兵\哨兵111111111111\底盘摩擦力补偿前馈（低配版）\MDK-ARM/..\application\MainFocus_task.c" DrawStyle="0" NameWithParents=".YY" />
+            </Symbol>
+            <Symbol>
+                <Options Name="absolute_angle" Address="0x20001E24" Type="float" TypeID="1" Size="4" GraphColorRed="0" GraphColorGreen="255" GraphColorBlue="255" YMinSampled="-0.554992" YMaxSampled="-0.114685" YAvgSampled="-0.34226" Offset="12" ShowInGraph="1" YOffset="0" IsAutoConfig="0" YResolution="1" MaxValue="-2147483648" File="D:\桌面\25电控哨兵\哨兵111111111111\底盘摩擦力补偿前馈（低配版）\MDK-ARM/..\application\gimbal_task.h" DrawStyle="0" NameWithParents=".gimbal_control.gimbal_yaw_motor.absolute_angle" />
+            </Symbol>
+            <Symbol>
+                <Options Name="absolute_angle_set" Address="0x20001E28" Type="float" TypeID="1" Size="4" GraphColorRed="255" GraphColorGreen="0" GraphColorBlue="255" YMinSampled="-0.544454" YMaxSampled="-0.129984" YAvgSampled="-0.344586" Offset="16" ShowInGraph="1" YOffset="0" IsAutoConfig="0" YResolution="1" MaxValue="-2147483648" File="D:\桌面\25电控哨兵\哨兵111111111111\底盘摩擦力补偿前馈（低配版）\MDK-ARM/..\application\gimbal_task.h" DrawStyle="0" NameWithParents=".gimbal_control.gimbal_yaw_motor.absolute_angle_set" />
+            </Symbol>
+            <Symbol>
+                <Options Name="motor_gyro" Address="0x20001E2C" Type="float" TypeID="1" Size="4" GraphColorRed="0" GraphColorGreen="0" GraphColorBlue="255" YMinSampled="-1.8184" YMaxSampled="1.22828" YAvgSampled="-0.0115409" Offset="20" ShowInGraph="1" YOffset="0" IsAutoConfig="0" YResolution="1" MaxValue="-2147483648" File="D:\桌面\25电控哨兵\哨兵111111111111\底盘摩擦力补偿前馈（低配版）\MDK-ARM/..\application\gimbal_task.h" DrawStyle="0" NameWithParents=".gimbal_control.gimbal_yaw_motor.motor_gyro" />
+            </Symbol>
+            <Symbol>
+                <Options Name="motor_gyro_set" Address="0x20001E30" Type="float" TypeID="1" Size="4" GraphColorRed="0" GraphColorGreen="255" GraphColorBlue="0" YMinSampled="-2.90547" YMaxSampled="1.97734" YAvgSampled="-0.0349761" Offset="24" ShowInGraph="1" YOffset="0" IsAutoConfig="0" YResolution="1" MaxValue="-2147483648" File="D:\桌面\25电控哨兵\哨兵111111111111\底盘摩擦力补偿前馈（低配版）\MDK-ARM/..\application\gimbal_task.h" DrawStyle="0" NameWithParents=".gimbal_control.gimbal_yaw_motor.motor_gyro_set" />
+            </Symbol>
+            <Symbol>
+                <Options Name="absolute_angle" Address="0x20001F94" Type="float" TypeID="1" Size="4" GraphColorRed="255" GraphColorGreen="255" GraphColorBlue="0" YMinSampled="-0.101156" YMaxSampled="-0.0966358" YAvgSampled="-0.0987827" Offset="28" ShowInGraph="0" YOffset="0" IsAutoConfig="0" YResolution="1" MaxValue="-2147483648" File="D:\桌面\25电控哨兵\哨兵111111111111\底盘摩擦力补偿前馈（低配版）\MDK-ARM/..\application\gimbal_task.h" DrawStyle="0" NameWithParents=".gimbal_control.gimbal_pitch_motor.absolute_angle" />
+            </Symbol>
+            <Symbol>
+                <Options Name="absolute_angle_set" Address="0x20001F98" Type="float" TypeID="1" Size="4" GraphColorRed="0" GraphColorGreen="255" GraphColorBlue="255" YMinSampled="-0.0767706" YMaxSampled="-0.0767706" YAvgSampled="-0.0767706" Offset="32" ShowInGraph="0" YOffset="0" IsAutoConfig="0" YResolution="1" MaxValue="-2147483648" File="D:\桌面\25电控哨兵\哨兵111111111111\底盘摩擦力补偿前馈（低配版）\MDK-ARM/..\application\gimbal_task.h" DrawStyle="0" NameWithParents=".gimbal_control.gimbal_pitch_motor.absolute_angle_set" />
+            </Symbol>
+            <Symbol>
+                <Options Name="motor_gyro" Address="0x20001F9C" Type="float" TypeID="1" Size="4" GraphColorRed="0" GraphColorGreen="0" GraphColorBlue="255" YMinSampled="-0.0654071" YMaxSampled="0.0773384" YAvgSampled="-0.00802998" Offset="36" ShowInGraph="0" YOffset="0" IsAutoConfig="0" YResolution="1" MaxValue="-2147483648" File="D:\桌面\25电控哨兵\哨兵111111111111\底盘摩擦力补偿前馈（低配版）\MDK-ARM/..\application\gimbal_task.h" DrawStyle="0" NameWithParents=".gimbal_control.gimbal_pitch_motor.motor_gyro" />
+            </Symbol>
+            <Symbol>
+                <Options Name="motor_gyro_set" Address="0x20001FA0" Type="float" TypeID="1" Size="4" GraphColorRed="0" GraphColorGreen="255" GraphColorBlue="0" YMinSampled="-0.467266" YMaxSampled="-0.372637" YAvgSampled="-0.420641" Offset="40" ShowInGraph="0" YOffset="0" IsAutoConfig="0" YResolution="1" MaxValue="-2147483648" File="D:\桌面\25电控哨兵\哨兵111111111111\底盘摩擦力补偿前馈（低配版）\MDK-ARM/..\application\gimbal_task.h" DrawStyle="0" NameWithParents=".gimbal_control.gimbal_pitch_motor.motor_gyro_set" />
+            </Symbol>
+        </SelectedSymbols>
+    </Project>
+</JScopeProject>

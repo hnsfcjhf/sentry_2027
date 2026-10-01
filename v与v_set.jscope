@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes" ?>
+<JScopeProject>
+    <FileVersion major="1" minor="1" />
+    <Project>
+        <Configuration>
+            <JLink>
+                <Options Connection="1" IsRTTSession="0" IsRTTWithTimeStamp="0" IsRTTPlus="0" SamplingPeriod="100" SerialNo="0" JTAG_IRPre="0" JTAG_DRPre="0" IP="" TargetDevice="STM32F407IG" TargetInterface="SWD" InterfaceSpeed="4000" />
+            </JLink>
+            <ElfFile Name="D:\����\25����ڱ�\�ڱ�111111111111\����Ħ��������ǰ��������棩\MDK-ARM\standard_tpye_c\standard_tpye_c.axf" />
+            <Scope>
+                <Options TimeResolutionUs="1000000" />
+            </Scope>
+            <Trigger>
+                <Options Level="0" Symbol="speed" On="0" Auto="0" Rise="0" Fall="0" />
+            </Trigger>
+        </Configuration>
+        <Windows>
+            <Graph Show="1" />
+            <Watch Show="1" />
+        </Windows>
+        <SelectedSymbols>
+            <Symbol>
+                <Options Name="speed" Address="0x200019EC" Type="float" TypeID="1" Size="4" GraphColorRed="255" GraphColorGreen="255" GraphColorBlue="0" YMinSampled="1.79769e+308" YMaxSampled="-1.79769e+308" YAvgSampled="0" Offset="0" ShowInGraph="1" YOffset="0" IsAutoConfig="0" YResolution="1" MaxValue="-2147483648" File="D:\桌面\25电控哨兵\哨兵111111111111\底盘摩擦力补偿前馈（低配版）\MDK-ARM/..\application\chassis_task.h" DrawStyle="0" NameWithParents=".chassis_move.motor_chassis[0].speed" />
+            </Symbol>
+            <Symbol>
+                <Options Name="speed_set" Address="0x200019F0" Type="float" TypeID="1" Size="4" GraphColorRed="0" GraphColorGreen="0" GraphColorBlue="255" YMinSampled="1.79769e+308" YMaxSampled="-1.79769e+308" YAvgSampled="0" Offset="0" ShowInGraph="1" YOffset="0" IsAutoConfig="0" YResolution="1" MaxValue="-2147483648" File="D:\桌面\25电控哨兵\哨兵111111111111\底盘摩擦力补偿前馈（低配版）\MDK-ARM/..\application\chassis_task.h" DrawStyle="0" NameWithParents=".chassis_move.motor_chassis[0].speed_set" />
+            </Symbol>
+            <Symbol>
+                <Options Name="speed" Address="0x20001A00" Type="float" TypeID="1" Size="4" GraphColorRed="0" GraphColorGreen="255" GraphColorBlue="0" YMinSampled="1.79769e+308" YMaxSampled="-1.79769e+308" YAvgSampled="0" Offset="0" ShowInGraph="1" YOffset="0" IsAutoConfig="0" YResolution="1" MaxValue="-2147483648" File="D:\桌面\25电控哨兵\哨兵111111111111\底盘摩擦力补偿前馈（低配版）\MDK-ARM/..\application\chassis_task.h" DrawStyle="0" NameWithParents=".chassis_move.motor_chassis[1].speed" />
+            </Symbol>
+            <Symbol>
+                <Options Name="speed_set" Address="0x20001A04" Type="float" TypeID="1" Size="4" GraphColorRed="255" GraphColorGreen="0" GraphColorBlue="0" YMinSampled="1.79769e+308" YMaxSampled="-1.79769e+308" YAvgSampled="0" Offset="0" ShowInGraph="1" YOffset="0" IsAutoConfig="0" YResolution="1" MaxValue="-2147483648" File="D:\桌面\25电控哨兵\哨兵111111111111\底盘摩擦力补偿前馈（低配版）\MDK-ARM/..\application\chassis_task.h" DrawStyle="0" NameWithParents=".chassis_move.motor_chassis[1].speed_set" />
+            </Symbol>
+            <Symbol>
+                <Options Name="speed" Address="0x20001A14" Type="float" TypeID="1" Size="4" GraphColorRed="0" GraphColorGreen="0" GraphColorBlue="255" YMinSampled="1.79769e+308" YMaxSampled="-1.79769e+308" YAvgSampled="0" Offset="0" ShowInGraph="1" YOffset="0" IsAutoConfig="0" YResolution="1" MaxValue="-2147483648" File="D:\桌面\25电控哨兵\哨兵111111111111\底盘摩擦力补偿前馈（低配版）\MDK-ARM/..\application\chassis_task.h" DrawStyle="0" NameWithParents=".chassis_move.motor_chassis[2].speed" />
+            </Symbol>
+            <Symbol>
+                <Options Name="speed_set" Address="0x20001A18" Type="float" TypeID="1" Size="4" GraphColorRed="255" GraphColorGreen="0" GraphColorBlue="255" YMinSampled="1.79769e+308" YMaxSampled="-1.79769e+308" YAvgSampled="0" Offset="0" ShowInGraph="1" YOffset="0" IsAutoConfig="0" YResolution="1" MaxValue="-2147483648" File="D:\桌面\25电控哨兵\哨兵111111111111\底盘摩擦力补偿前馈（低配版）\MDK-ARM/..\application\chassis_task.h" DrawStyle="0" NameWithParents=".chassis_move.motor_chassis[2].speed_set" />
+            </Symbol>
+            <Symbol>
+                <Options Name="speed" Address="0x20001A28" Type="float" TypeID="1" Size="4" GraphColorRed="255" GraphColorGreen="0" GraphColorBlue="0" YMinSampled="1.79769e+308" YMaxSampled="-1.79769e+308" YAvgSampled="0" Offset="0" ShowInGraph="1" YOffset="0" IsAutoConfig="0" YResolution="1" MaxValue="-2147483648" File="D:\桌面\25电控哨兵\哨兵111111111111\底盘摩擦力补偿前馈（低配版）\MDK-ARM/..\application\chassis_task.h" DrawStyle="0" NameWithParents=".chassis_move.motor_chassis[3].speed" />
+            </Symbol>
+            <Symbol>
+                <Options Name="speed_set" Address="0x20001A2C" Type="float" TypeID="1" Size="4" GraphColorRed="0" GraphColorGreen="255" GraphColorBlue="255" YMinSampled="1.79769e+308" YMaxSampled="-1.79769e+308" YAvgSampled="0" Offset="0" ShowInGraph="1" YOffset="0" IsAutoConfig="0" YResolution="1" MaxValue="-2147483648" File="D:\桌面\25电控哨兵\哨兵111111111111\底盘摩擦力补偿前馈（低配版）\MDK-ARM/..\application\chassis_task.h" DrawStyle="0" NameWithParents=".chassis_move.motor_chassis[3].speed_set" />
+            </Symbol>
+        </SelectedSymbols>
+    </Project>
+</JScopeProject>

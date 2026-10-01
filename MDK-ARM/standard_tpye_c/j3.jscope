@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes" ?>
+<JScopeProject>
+    <FileVersion major="1" minor="1" />
+    <Project>
+        <Configuration>
+            <JLink>
+                <Options Connection="1" IsRTTSession="0" IsRTTWithTimeStamp="0" SamplingPeriod="100" SerialNo="0" JTAG_IRPre="0" JTAG_DRPre="0" IP="" TargetDevice="STM32F407IG" TargetInterface="SWD" InterfaceSpeed="4000" />
+            </JLink>
+            <ElfFile Name="C:\Users\86188\Desktop\�ڱ�\20240419���̸���pid����\MDK-ARM\standard_tpye_c\standard_tpye_c.axf" />
+            <Scope>
+                <Options TimeResolutionUs="1000000" />
+            </Scope>
+        </Configuration>
+        <Windows>
+            <Graph Show="1" />
+            <Watch Show="1" />
+        </Windows>
+        <SelectedSymbols>
+            <Symbol>
+                <Options Name="chassis_relative_angle_set_1000" Address="0x2000013C" Type="int" TypeID="12" Size="4" GraphColorRed="255" GraphColorGreen="0" GraphColorBlue="0" YMinSampled="0" YMaxSampled="1.76032e+09" YAvgSampled="1.78284e+07" Offset="4" ShowInGraph="1" YOffset="0" IsAutoConfig="0" YResolution="50" MaxValue="2147483647" File="C:\Users\86188\Desktop\哨兵\20240412串口数据修改 - 副本 (2) - 副本\MDK-ARM/..\application\chassis_task.c" DrawStyle="0" NameWithParents="chassis_relative_angle_set_1000" />
+            </Symbol>
+            <Symbol>
+                <Options Name="chassis_relative_angle_1000" Address="0x20000140" Type="int" TypeID="12" Size="4" GraphColorRed="0" GraphColorGreen="0" GraphColorBlue="255" YMinSampled="-696" YMaxSampled="2.54019e+08" YAvgSampled="2.5727e+06" Offset="8" ShowInGraph="1" YOffset="0" IsAutoConfig="0" YResolution="50" MaxValue="2147483647" File="C:\Users\86188\Desktop\哨兵\20240412串口数据修改 - 副本 (2) - 副本\MDK-ARM/..\application\chassis_task.c" DrawStyle="0" NameWithParents="chassis_relative_angle_1000" />
+            </Symbol>
+        </SelectedSymbols>
+    </Project>
+</JScopeProject>
